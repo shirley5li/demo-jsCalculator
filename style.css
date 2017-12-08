@@ -1,0 +1,79 @@
+/*CSS style init*/
+body,h1,p,{margin: 0; padding: 0;}
+body{font:14px/1.5 "sans-serif";}
+a{text-decoration:none;}
+/*清浮动*/
+.clearfix:after {content:"";*display:block;*clear:both;}
+.clearfix{zoom:1;}
+button {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+body {
+	font-family: 'Orbitron', sans-serif;
+  	background-color: #FFF0F5;
+  	color: #fff;
+}
+.calculator {
+	width: 400px;
+    height: 600px;
+    background-color: #000;
+    margin: 80px auto;
+    border: 1px solid #FFF5EE;
+    border-radius: 20px;
+}
+.footer {
+	width: 400px;
+    margin: -60px auto;
+    text-align: center;
+    color: #19171b;
+}
+.title {
+	font-size: 1.5em;
+    text-align: center;
+    color: #EE8262;
+    margin-bottom: 30px;
+}
+.display {
+	width: 370px;
+    height: 50px;
+    background-color: #C7C7C7;
+    margin: 0 auto;
+    border: 1px solid #C7C7C7;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: right;
+    font-size: 2em;
+    overflow: hidden;
+}
+.input {
+	width: 380px;
+	height: 400px;
+    margin: 10px auto;
+    padding-left: 10px;
+}
+button {
+	float: left;
+    width: 92px;
+    height: 80px;
+    border: 0.05em solid #000;
+    font-size: 2em;
+    background-color: #C7C7C7;
+}
+button:hover {
+	cursor: pointer;
+	background-color: #EEC591;
+}
+#zeroButton {
+	width: 184px;
+}
+.orange {
+	background-color: #EE9A49;
+}
+a:hover {color: #EECFA1;} 
+a:visited {color: #87CEFF;} 
+a:link {color: #EE7600;} 
+a {color: #EE7600;}
